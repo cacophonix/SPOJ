@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ANARC08B
 ALGO: ad-hoc
 */
+
 #include <stdio.h>
 #include <string.h>
 

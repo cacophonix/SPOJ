@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANARC09C
-ALGO: math, prime factorization
+ALGO: math
 */
+
 #include <cstdio>
 #include <cstdlib>
 using namespace std;

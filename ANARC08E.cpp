@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ANARC08E
 ALGO: math
 */
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;

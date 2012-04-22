@@ -3,10 +3,7 @@ USER: zobayer
 TASK: ANARC08F
 ALGO: warshall
 */
-/*
-#pragma warning (disable: 4786)
-#pragma comment (linker, "/STACK:0x800000")
-*/
+
 #include <cassert>
 #include <cctype>
 #include <cmath>
@@ -69,7 +66,7 @@ int hash(char *s, int &n) {
 }
 
 int main() {
-	READ("one.in");
+	//READ("one.in");
 	//WRITE("out.txt");
 	int n, c, r, cs = 1, gar, k, i, j, l, w, u, v, tot;
 	char name1[32], name2[32], dir[32], temp[32];

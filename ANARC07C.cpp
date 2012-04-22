@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ANARC07C
 ALGO: simulation
 */
+
 #include <iostream>
 #include <cstdio>
 #include <vector>

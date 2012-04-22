@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANARC05H
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 #include <cstring>
 #include <cctype>

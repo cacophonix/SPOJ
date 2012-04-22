@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANARC08H
-ALGO: recursion
+ALGO: simulation
 */
+
 #include <stdio.h>
 
 int solve(int n, int d)

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ANARC05I
 ALGO: simulation
 */
+
 #include <stdio.h>
 
 #define MAX 2002
