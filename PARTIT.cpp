@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PARTIT
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

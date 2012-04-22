@@ -19,7 +19,7 @@ inline void answer(int a){tester.answer(a);}
 /*
 USER: zobayer
 TASK: PALIM
-ALGO: linear time palindrome search
+ALGO: manacher
 */
 
 #include <vector>

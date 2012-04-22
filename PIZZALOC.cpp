@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: PIZZALOC
-ALGO: subset check
+ALGO: subset generation
 */
+
 #include <cstdio>
 #include <cstring>
 using namespace std;

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: ONP
-ALGO: expression
+ALGO: expression evaluation
 */
 
 #include <cstdio>

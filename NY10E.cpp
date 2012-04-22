@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: NY10E
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 using namespace std;
 

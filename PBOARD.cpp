@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: PBOARD
-ALGO: matrix multiplication
+ALGO: matrix exponentiation
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: QUADRATE
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

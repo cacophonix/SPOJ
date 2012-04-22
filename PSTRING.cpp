@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PSTRING
-ALGO: kmp, dp
+ALGO: dynamic programming
 */
 
 #include <cassert>

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PERMUT1
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

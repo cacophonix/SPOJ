@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PARTY
-ALGO: dp, knapsack
+ALGO: dynamic programming
 */
 
 #include <cassert>

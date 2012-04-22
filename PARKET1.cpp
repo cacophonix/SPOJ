@@ -3,6 +3,7 @@ USER: zobayer
 TASK: PARKET1
 ALGO: math
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

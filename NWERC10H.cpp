@@ -3,6 +3,7 @@ USER: zobayer
 TASK: NWERC10H
 ALGO: heap
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

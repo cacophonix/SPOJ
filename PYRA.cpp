@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: PYRA
-ALGO: dfs
+ALGO: depth first search
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

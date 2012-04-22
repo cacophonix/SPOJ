@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: OSPROB1
+ALGO: dynamic programming
+*/
+
 #include <stdio.h>
 #include <string.h>
 

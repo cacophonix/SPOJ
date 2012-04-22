@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PFDEP
-ALGO: topological sort, tarjan
+ALGO: topological sort
 */
 
 #include <cstdio>

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: ODDDIV
-ALGO: math, binary search
+ALGO: binary search
 */
 
 #include <cstdio>

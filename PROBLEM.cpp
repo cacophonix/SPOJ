@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: PROBLEM
+ALGO: ad-hoc
+*/
+
 #include <cstdio>
 
 int mp[10] = {1, 0, 0, 0, 0, 0, 1, 0, 2, 1};

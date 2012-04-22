@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: QCJ1
-ALGO: sweep, simulation
+ALGO: sweep
 */
 
 #include <cstdio>

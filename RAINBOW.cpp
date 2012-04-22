@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: RAINBOW
-ALGO: dp, knapsack
+ALGO: dynamic programming
 */
 
 #include <cstdio>

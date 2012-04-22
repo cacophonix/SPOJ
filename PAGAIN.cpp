@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PAGAIN
-ALGO: prime, sieve
+ALGO: math
 */
 
 #include <ios>

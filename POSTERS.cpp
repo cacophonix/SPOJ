@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: POSTERS
-ALGO: data structure
+ALGO: binary search tree
 */
+
 #include <set>
 #include <cstring>
 #include <iostream>

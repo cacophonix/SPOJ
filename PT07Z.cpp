@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: PT07Z
-ALGO: tree diameter, dfs
+ALGO: tree diameter
 */
 
 #include <cstdio>

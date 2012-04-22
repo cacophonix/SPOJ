@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: QTREE2
-ALGO: lca
+ALGO: least common ancestor
 */
+
 #include <cstdio>
 #include <climits>
 #include <algorithm>

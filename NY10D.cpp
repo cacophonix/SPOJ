@@ -3,6 +3,7 @@ USER: zobayer
 TASL: NY10D
 ALGO: simulation
 */
+
 #include <cstdio>
 using namespace std;
 
