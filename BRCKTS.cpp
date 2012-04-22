@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BRCKTS
 ALGO: segment tree
 */
+
 #include <algorithm>
 #include <cstdio>
 

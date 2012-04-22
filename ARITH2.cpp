@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ARITH2
 ALGO: ad-hoc
 */
+
 #include <stdio.h>
 
 #define i64 long long

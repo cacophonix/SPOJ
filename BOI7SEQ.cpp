@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: BOI7SEQ
-ALGO: greedy, stack
+ALGO: stack
 */
+
 #include <cstdio>
 using namespace std;
 

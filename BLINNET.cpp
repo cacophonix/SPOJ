@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: BLINNET
-ALGO: mst, kruskal
+ALGO: kruskal
 */
+
 #include <cstdio>
 #include <vector>
 #include <algorithm>

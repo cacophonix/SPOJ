@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: CERC07K
-ALGO: bfs, exhaustive
+ALGO: breadth first search
 */
+
 #include <cstdio>
 #include <queue>
 #include <cctype>

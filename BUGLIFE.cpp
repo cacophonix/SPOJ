@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: BUGLIFE
-ALGO: bfs, bi coloring
+ALGO: bi-coloring
 */
+
 #include <cassert>
 #include <cctype>
 #include <climits>

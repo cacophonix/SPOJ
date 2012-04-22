@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: BHAT007
-ALGO: ad-hoc, base conversion
+ALGO: ad-hoc
 */
 
 #include <cstdio>

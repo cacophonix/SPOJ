@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANTTT
-ALGO: geometry, disjoint set
+ALGO: geometry
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: C1LJUTNJ
-ALGO: sorting, greedy
+ALGO: sorting
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

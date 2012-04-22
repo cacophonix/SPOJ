@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CERC07N
-ALGO: base conversion
+ALGO: ad-hoc
 */
 
 #include <cassert>

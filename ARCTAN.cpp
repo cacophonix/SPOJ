@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ARCTAN
 ALGO: math
 */
+
 #include <ios>
 #include <algorithm>
 int main(){long long a,c,t,b;scanf("%lld",&t);while(t--){scanf("%lld",&a);c=1;c<<=60;

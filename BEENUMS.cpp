@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BEENUMS
 ALGO: math
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

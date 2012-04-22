@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BYECAKES
 ALGO: ad-hoc
 */
+
 #include <stdio.h>
 
 int main() {

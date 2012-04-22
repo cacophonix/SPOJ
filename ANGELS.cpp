@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANGELS
-ALGO: bpm
+ALGO: bipartite matching
 */
+
 #include <cassert>
 #include <cctype>
 #include <climits>

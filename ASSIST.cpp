@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ASSIST
 ALGO: simulation
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

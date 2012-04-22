@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: CAPCITY
-ALGO: scc
+ALGO: strongly connected component
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

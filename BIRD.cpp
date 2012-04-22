@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BIRD
 ALGO: ad-hoc
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

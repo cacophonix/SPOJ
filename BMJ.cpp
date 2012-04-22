@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BMJ
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

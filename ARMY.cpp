@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ARMY
 ALGO: ad-hoc
 */
+
 #include <ios>
 using namespace std;
 

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: CATM
-ALGO: manhattan distance
+ALGO: geometro
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <algorithm>

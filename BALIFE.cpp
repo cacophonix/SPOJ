@@ -3,6 +3,7 @@ USER: zobayer
 TASK: BALIFE
 ALGO: simulation
 */
+
 #include <cstdio>
 using namespace std;
 
