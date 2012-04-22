@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: RENT
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

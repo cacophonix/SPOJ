@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: REC
-ALGO: recursion, bignum
+ALGO: recursion
 */
 
 #include <stdio.h>

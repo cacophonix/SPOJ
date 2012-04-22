@@ -3,6 +3,7 @@ USER: zobayer
 TASK: SAMER08E
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 using namespace std;
 

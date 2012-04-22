@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ROCK
-ALGO: memo O(n^2)
+ALGO: dynamic programming
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>
