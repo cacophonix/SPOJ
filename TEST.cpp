@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TEST
-ALGO: ad hoc
+ALGO: ad-hoc
 */
 
 #include <cassert>

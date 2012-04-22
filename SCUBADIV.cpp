@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: SCUBADIV
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

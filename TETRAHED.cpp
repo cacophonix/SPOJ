@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TETRAHED
-ALGO: co-ordinate geometry
+ALGO: geometry
 */
 
 #include <cstdio>

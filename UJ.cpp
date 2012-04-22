@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: UJ
-ALGO: bignum
+ALGO: ad-hoc
 */
 
 #include <ios>

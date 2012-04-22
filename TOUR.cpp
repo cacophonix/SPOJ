@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TOUR
-ALGO: scc, tarjan
+ALGO: strongly connected component
 */
 
 #include <cstdio>

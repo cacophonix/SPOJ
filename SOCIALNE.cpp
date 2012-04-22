@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: SOCIALNE
-ALGO: dp, warshall
+ALGO: warshall
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: SUDOKU
-ALGO: dlx
+ALGO: dancing links algorithm-x
 */
 
 #include <stdio.h>

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: SQRBR
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

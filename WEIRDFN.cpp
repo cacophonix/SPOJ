@@ -3,6 +3,7 @@ USER: zobayer
 TASK: WEIRDFN
 ALGO: heap
 */
+
 #include <cstdio>
 #include <queue>
 using namespace std;

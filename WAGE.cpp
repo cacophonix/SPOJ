@@ -3,6 +3,7 @@ USER: zobayer
 TASK: WAGE
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 #include <cstring>
 using namespace std;

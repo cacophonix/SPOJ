@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: SCPC11D
-ALGO: trivial, math
+ALGO: ad-hoc
 */
 
 #include <cstdio>

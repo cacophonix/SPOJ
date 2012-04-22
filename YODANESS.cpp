@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: YODANESS
-ALGO: merge sort
+ALGO: divide and conquer
 */
 
 #include <cstdio>

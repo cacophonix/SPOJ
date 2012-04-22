@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TRIP
-ALGO: dp, lcs, backtrack
+ALGO: dynamic programming
 */
 
 #include <ios>

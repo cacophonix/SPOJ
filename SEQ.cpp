@@ -3,6 +3,7 @@ USER: zobayer
 TASK: SEQ
 ALGO: matrix exponentiation
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

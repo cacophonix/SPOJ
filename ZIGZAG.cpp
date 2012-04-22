@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: ZIGZAG
-ALGO: math, ad-hoc
+ALGO: math
 */
 
 #include <cstdio>

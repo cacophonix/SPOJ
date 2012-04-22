@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: UPSUB
-ALGO: dp, lis
+ALGO: dynamic programming
 */
 
 #include <stdio.h>

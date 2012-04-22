@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: STREETR
-ALGO: math, sorting
+ALGO: math
 */
 
 #include <algorithm>

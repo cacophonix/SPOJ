@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: WORDS1
-ALGO: eularean tour, bfs
+ALGO: eular tour
 */
 
 #include <cstdio>

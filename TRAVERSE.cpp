@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: TRAVERSE
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 using namespace std;
 

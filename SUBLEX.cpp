@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: SUBLEX
-ALGO: suffix array, dc-3
+ALGO: suffix array
 */
 
 #include <cstdio>

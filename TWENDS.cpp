@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TWENDS
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TOURIST
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

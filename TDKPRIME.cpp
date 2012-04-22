@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TDKPRIME
-ALGO: sieve, prime
+ALGO: math
 */
 
 #include <stdio.h>

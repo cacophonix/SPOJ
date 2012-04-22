@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: TAXI
-ALGO: bpm, dfs
+ALGO: bipartite matching
 */
 
 #include <vector>

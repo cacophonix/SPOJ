@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: STEAD
-ALGO: bpm, dfs
+ALGO: bipartite matching
 */
 
 #include <cassert>

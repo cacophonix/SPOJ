@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: SHORTCUT
-ALGO: sorting, sweep
+ALGO: sweep
 */
 
 #include <cstdio>
