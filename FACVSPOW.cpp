@@ -1,6 +1,8 @@
-//USER: zobayer
-//TASK:	FACVSPOW
-//ALGO:	math
+/*
+USER: zobayer
+TASK: FACVSPOW
+ALGO: math
+*/
 
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <cstdio>

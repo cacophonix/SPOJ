@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: DP
-ALGO: bfs
+ALGO: breadth first search
 */
 
 #include <cstdio>

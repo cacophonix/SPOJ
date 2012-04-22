@@ -3,6 +3,7 @@ USER: zobayer
 TASK: HORRIBLE
 ALGO: segment tree
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

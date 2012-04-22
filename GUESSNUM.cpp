@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: GUESSNUM
+ALGO: binary search
+*/
+
 #include <cstdio>
 
 int main() {

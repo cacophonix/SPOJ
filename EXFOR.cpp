@@ -3,6 +3,7 @@ USER: zobayer
 TASK: EXFOR
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 using namespace std;
 

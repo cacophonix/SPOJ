@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: ESJAIL
-ALGO: bfs
+ALGO: breadth first search
 */
 
 #include <queue>

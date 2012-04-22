@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: FASTFLOW
-ALGO: maxflow, dinic
+ALGO: maxflow
 */
 
 #include <cassert>

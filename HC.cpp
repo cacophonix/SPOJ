@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: HC
-ALGO: game
+ALGO: nim game
 */
 
 #include <ios>

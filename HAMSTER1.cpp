@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: HAMSTER1
-ALGO: geometry, ternary search
+ALGO: ternary search
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

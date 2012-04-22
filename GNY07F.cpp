@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: GNY07F
-ALGO: trivial
+ALGO: ad-hoc
 */
 
 #include <cassert>

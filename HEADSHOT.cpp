@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: HEADSHOT
+ALGO: ad-hoc
+*/
+
 #include <stdio.h>
 #include <math.h>
 

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: HPYNOS
 ALGO: pre-calculation
 */
+
 #include <cstdio>
 using namespace std;
 

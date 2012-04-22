@@ -3,6 +3,7 @@ USER: zobayer
 TASK: GCJ101C
 ALGO: math
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

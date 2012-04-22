@@ -3,6 +3,7 @@ USER: zobayer
 TASK: EASYPIE
 ALGO: ad-hoc
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: GCPC11D
 ALGO: backtrack
 */
+
 #include <cstdio>
 #include <cstring>
 #include <cassert>

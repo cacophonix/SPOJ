@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: GNY07A
+ALGO: ad-hoc
+*/
+
 #include <stdio.h>
 
 int main()

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: HIST2
-ALGO: dp, bitmask
+ALGO: dynamic programming
 */
 
 #include <cstdio>

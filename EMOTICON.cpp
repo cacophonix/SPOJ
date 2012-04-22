@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: EMOTICON
-ALGO: kmp
+ALGO: knuth morris patt
 */
 
 #include <cstdio>

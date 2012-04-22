@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: GOSSIPER
-ALGO: bitmask
+ALGO: ad-hoc
 */
 
 #include <cassert>

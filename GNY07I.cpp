@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: GNY07I
-ALGO: ad-hoc, simulation
+ALGO: simulation
 */
 
 #include <cstdio>

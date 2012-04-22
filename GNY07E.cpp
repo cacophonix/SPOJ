@@ -3,6 +3,7 @@ USER: zobayer
 TASK: GNY07E
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <algorithm>

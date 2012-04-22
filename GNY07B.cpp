@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: GNY07B
+ALGO: ad-hoc
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;

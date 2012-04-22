@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: GCPC11B
-ALGO: dp, longest common substring
+ALGO: dynamic programming
 */
 
 #include <cstdio>

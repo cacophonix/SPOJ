@@ -3,6 +3,7 @@ USER: zobayer
 TASK: GNY07G
 ALGO: geometry
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

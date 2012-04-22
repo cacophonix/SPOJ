@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: GUESSTHE
-ALGO: math, lcm
+ALGO: math
 */
 
 #include <stdio.h>

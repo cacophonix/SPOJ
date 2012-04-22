@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: GCJ2012C
+ALGO: simulation
+*/
+
 #include <cstdio>
 
 int main() {

@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: DSUBSEQ
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

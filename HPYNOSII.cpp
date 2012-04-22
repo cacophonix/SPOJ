@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: HPYNOSII
-ALGO: pre-calculation, io-optimization
+ALGO: pre-calculation
 */
+
 #include <cstdio>
 using namespace std;
 

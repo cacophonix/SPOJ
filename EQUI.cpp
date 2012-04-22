@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: EQUI
-ALGO: ad-hoc, math
+ALGO: math
 */
 
 #include <cstdio>

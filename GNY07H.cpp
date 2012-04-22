@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: GNY07H
-ALGO: dp-bitmask
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 #include <cstring>
 using namespace std;

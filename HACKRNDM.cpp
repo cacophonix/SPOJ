@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: HACKRNDM
-ALGO: ad-hoc, binary search
+ALGO: binary search
 */
 
 #include <cstdio>

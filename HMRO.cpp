@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: HMRO
-ALGO: hashing, topological sort
+ALGO: topological sort
 */
 
 #include <cstdio>
