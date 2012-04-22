@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MAXSUMSQ
-ALGO: dp, maximum sum
+ALGO: dynamic programming
 */
 
 #include <cassert>

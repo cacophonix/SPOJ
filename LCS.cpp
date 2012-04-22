@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: LCS
-ALGO: suffix automata
+ALGO: suffix automaton
 */
 
 #include <cstdio>

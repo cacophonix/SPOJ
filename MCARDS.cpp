@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MCARDS
-ALGO: dp, lis
+ALGO: dynamic programming
 */
 
 #include <cstdio>

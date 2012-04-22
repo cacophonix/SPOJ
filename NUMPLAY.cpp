@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: NUMPLAY
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cstdio>

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: MFLAR10
 ALGO: ad-hoc
 */
+
 #include <iostream>
 #include <cstdlib>
 #include <cstdio>

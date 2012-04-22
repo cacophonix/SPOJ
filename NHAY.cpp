@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: NHAY
+ALGO: knuth morris patt
+*/
+
 #include <cstdio>
 #include <cstring>
 #include <vector>

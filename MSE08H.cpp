@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MSE08H
-ALGO: math, matrix algebra
+ALGO: math
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

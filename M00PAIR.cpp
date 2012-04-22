@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: M00PAIR
-ALGO: math, big number
+ALGO: big integer
 */
+
 #include <cstdio>
 #include <cstring>
 #include <algorithm>

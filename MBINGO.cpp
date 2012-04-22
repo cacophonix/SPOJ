@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: MBINGO
+ALGO: ad-hoc
+*/
+
 #include <cstdio>
 #include <cstring>
 #include <cstdlib>

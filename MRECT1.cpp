@@ -3,6 +3,7 @@ USER: zobayer
 TASK: MRECT1
 ALGO: binary search
 */
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;

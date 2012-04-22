@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: LLCA
+ALGO: ad-hoc
+*/
+
 #include<stdio.h>
 int main(){
 	int c,t,a,b;

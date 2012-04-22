@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MPILOT
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include<cstdio>
 #include<sstream>
 #include<cstdlib>

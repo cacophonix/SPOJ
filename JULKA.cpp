@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: JULKA
-ALGO: bignum
+ALGO: big integer
 */
 
 #include <stdio.h>

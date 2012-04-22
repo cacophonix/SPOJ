@@ -3,6 +3,7 @@ USER: zobayer
 TASK: LITE
 ALGO: segment tree
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

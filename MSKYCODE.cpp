@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MSKYCODE
-ALGO: inclusion-exclusion
+ALGO: inclusion exclusion
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

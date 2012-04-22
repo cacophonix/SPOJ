@@ -3,6 +3,7 @@ USER: zobayer
 TASK: MULTQ3
 ALGO: segment tree
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

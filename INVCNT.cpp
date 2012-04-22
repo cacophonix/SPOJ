@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: INVCNT
-ALGO: recursion, d&c
+ALGO: divide and conquer
 */
 
 #include <cstdio>

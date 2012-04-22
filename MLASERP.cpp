@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MLASERP
-ALGO: bfs
+ALGO: breadth first search
 */
 
 #include <cassert>

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: NDIVPHI
-ALGO: math, prime, big number
+ALGO: math
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

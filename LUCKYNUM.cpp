@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: LUCKYNUM
-ALGO: bfs, exhaustive
+ALGO: breadth first search
 */
 
 #include <cstdio>

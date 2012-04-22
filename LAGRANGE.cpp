@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: LAGRANGE
-ALGO: precalculation
+ALGO: pre-calculation
 */
 
 #include <cstdio>

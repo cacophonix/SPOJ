@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: LCS3
-ALGO: all subset + binary search
+ALGO: binary search
 */
+
 #include <cstdio>
 #include <cstring>
 using namespace std;

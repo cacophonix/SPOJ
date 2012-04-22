@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MMMGAME
-ALGO: misere nim
+ALGO: nim game
 */
 
 #include <cstdio>

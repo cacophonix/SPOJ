@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MSE06H
-ALGO: B.I.T.
+ALGO: binary indexed tree
 */
 
 #include <cstdio>

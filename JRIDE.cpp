@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: JRIDE
-ALGO: dp, maximum sum
+ALGO: dynamic programming
 */
 
 #include <cstdio>

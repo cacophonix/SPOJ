@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MBLAST
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

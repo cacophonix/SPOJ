@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ITRIX_B
-ALGO: counting
+ALGO: math
 */
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;

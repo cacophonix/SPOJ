@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: MAJSTOR
+ALGO: ad-hoc
+*/
+
 #include <stdio.h>
 inline int add(char s, char f) {
 	int t = 0;

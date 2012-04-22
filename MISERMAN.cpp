@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MISERMAN
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <stdio.h>
 
 const int MAX = 128;

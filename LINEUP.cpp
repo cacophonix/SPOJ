@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: LINEUP
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 #include <cstring>
 #include <algorithm>

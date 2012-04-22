@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: LABYR1
-ALGO: dfs
+ALGO: depth first search
 */
 
 #include <cstdio>

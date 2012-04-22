@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: IOIPALIN
-ALGO: dp, lcs
+ALGO: dynamic programming
 */
 
 #include <stdio.h>

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: MTWALK
-ALGO: bfs, exhaustive
+ALGO: breadth first search
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

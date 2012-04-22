@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MATCHING
-ALGO: bpm, hopcroft karp
+ALGO: bipartite matching
 */
 
 #define _CRT_SECURE_NO_WARNINGS 1

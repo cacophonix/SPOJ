@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MUL
-ALGO: karatsuba
+ALGO: karatsuba multiplication
 */
 
 #include <cstdio>

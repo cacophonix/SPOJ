@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: LINES
-ALGO: geometry, sorting
+ALGO: geometry
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

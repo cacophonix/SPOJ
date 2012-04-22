@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: NFACTOR
-ALGO: math, prime
+ALGO: math
 */
 
 #include <cstdio>

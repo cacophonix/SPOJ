@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: NDIVPHI2
-ALGO: math, prime, big number, sqrt decomposition, binary search
+ALGO: math
 */
 
 #include <cstdio>

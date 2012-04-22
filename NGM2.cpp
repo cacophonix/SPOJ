@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: NGM2
-ALGO: inclusion - exclusion
+ALGO: inclusion exclusion
 */
 
 #include <cassert>

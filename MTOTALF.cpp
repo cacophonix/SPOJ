@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MTOTALF
-ALGO: maxflow, dinic
+ALGO: maxflow
 */
 
 #include <algorithm>
