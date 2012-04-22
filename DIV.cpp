@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: DIV
-ALGO: math, prime
+ALGO: math
 */
 
 #include <iostream>

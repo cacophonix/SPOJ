@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: DCD
-ALGO: subset partition, binary search
+ALGO: binary search
 */
 
 #include <cstdio>

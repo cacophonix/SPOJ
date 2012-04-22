@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: CRYPTON
-ALGO: prime, sieve
+ALGO: math
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

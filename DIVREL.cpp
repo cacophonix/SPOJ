@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: DIVREL
-ALGO: bpm
+ALGO: bipartite matching
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

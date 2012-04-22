@@ -3,10 +3,7 @@ USER: zobayer
 TASK: CTGAME
 ALGO: stack
 */
-/*
-#pragma warning (disable: 4786)
-#pragma comment (linker, "/STACK:0x800000")
-*/
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

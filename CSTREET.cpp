@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CSTREET
-ALGO: mst, kruskal
+ALGO: kruskal
 */
 
 #include <cstdio>
