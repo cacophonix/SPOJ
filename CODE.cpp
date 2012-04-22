@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: CODE
-ALGO: euler cycle detection
+ALGO: euler cycle
 */
+
 #include <cassert>
 #include <cctype>
 #include <cmath>

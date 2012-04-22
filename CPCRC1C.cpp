@@ -3,6 +3,7 @@ USER: zobayer
 TASK: CPCRC1C
 ALGO: math
 */
+
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>

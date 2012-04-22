@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CMPLS
-ALGO: ad-hoc, differential completion
+ALGO: math
 */
 
 #include <cassert>

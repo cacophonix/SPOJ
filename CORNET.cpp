@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CORNET
-ALGO: dfs
+ALGO: depth first search
 */
 
 #include <stdio.h>

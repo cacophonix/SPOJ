@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CLEANRBT
-LANG: bfs, exhaustive
+LANG: breadth first search
 */
 
 #include <cstdio>

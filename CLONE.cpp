@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CLONE
-ALGO: trie, sorting
+ALGO: trie
 */
 
 #include <cstdio>

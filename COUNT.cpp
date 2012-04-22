@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: COUNT
-ALGO: dp
+ALGO: dynamic programming
 */
 
 #include <cassert>

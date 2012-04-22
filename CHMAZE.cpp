@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CHMAZE
-ALGO: bfs, exhaustive
+ALGO: breadth first search
 */
 
 #include <cstdio>

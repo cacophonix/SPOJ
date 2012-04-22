@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: CHASE
-ALGO: geometry, sorting
+ALGO: geometry
 */
 
 #include <cstdio>
