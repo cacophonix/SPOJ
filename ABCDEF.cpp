@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: ABCDEF
-ALGO: subset, binary search
+ALGO: binary search
 */
 
 #include <cstdio>

@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ACT
 ALGO: ad-hoc
 */
+
 #include <stdio.h>
 #include <string.h>
 

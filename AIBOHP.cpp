@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: AIBOHP
-ALGO: dp, lcs
+ALGO: dynamic programming
 */
+
 #include <stdio.h>
 #include <string.h>
 

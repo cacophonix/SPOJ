@@ -3,6 +3,7 @@ USER: zobayer
 TASK: AE1B
 ALGO: sorting
 */
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;

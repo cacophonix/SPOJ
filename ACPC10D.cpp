@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ACPC10D
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <stdio.h>
 
 const int inf = 0x7f7f7f7f;

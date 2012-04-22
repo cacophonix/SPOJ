@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ACPC10A
 ALGO: ad-hoc
 */
+
 #include <stdio.h>
 
 int main() {

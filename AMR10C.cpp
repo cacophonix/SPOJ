@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: AMR10C
-ALGO: prime factoring
+ALGO: math
 */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;

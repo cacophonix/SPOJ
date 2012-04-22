@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: AMR10F
-ALGO: ad-hoc, math
+ALGO: math
 */
+
 #include <cstdio>
 using namespace std;
 

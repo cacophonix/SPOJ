@@ -3,6 +3,7 @@ USER: zobayer
 TASK: AE2B
 ALGO: math
 */
+
 #include <stdio.h>
 
 const int BUFF = 1280000;

@@ -1,3 +1,9 @@
+/*
+USER: zobayer
+TASK: ALICESIE
+ALGO: math
+*/
+
 #include <cstdio>
 
 int main() {

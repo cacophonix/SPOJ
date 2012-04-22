@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ABSYS
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 #include <cstring>
 #include <cctype>

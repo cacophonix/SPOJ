@@ -1,9 +1,10 @@
 /*
 USER: zobayer
 TASK: AE00
-ALGO: math, prime, sieve
+ALGO: math
 */
-#include <ios>
+
+#include <cstdio>
 
 #define MAX 10000
 #define LMT 100

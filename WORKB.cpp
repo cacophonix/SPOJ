@@ -3,6 +3,7 @@ USER: zobayer
 TASK: WORKB
 ALGO: greedy
 */
+
 #include <cstdio>
 
 #define i64 long long

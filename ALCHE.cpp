@@ -3,6 +3,7 @@ USER: zobayer
 TASK: ALCHE
 ALGO: ad-hoc
 */
+
 #include <cstdio>
 using namespace std;
 

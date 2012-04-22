@@ -3,6 +3,7 @@ USER: zobayer
 TASK: AGGRCOW
 ALGO: binary search
 */
+
 #include <cassert>
 #include <cctype>
 #include <climits>

@@ -1,8 +1,9 @@
 /*
 USER: zobayer
 TASK: ANARC05B
-ALGO: dp
+ALGO: dynamic programming
 */
+
 #include <cstdio>
 #include <algorithm>
 using namespace std;
