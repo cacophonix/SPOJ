@@ -81,27 +81,15 @@ int main() {
 			if(x > n || y > n) { ans++; continue; }
 			px = find(x);
 			py = find(y);
-			if(t == 1) {
-				if(px == py) {
-					tmp = (d[x] - d[y]) % 3; if(tmp < 0) tmp += 3;
-					if(tmp != 0) ans++;
-				}
-				else {
-					root[px] = py;
-					i = (d[x] - d[y]) % 3;
-					d[px] = i < 0? -i : -i+3;
-				}
+			t--;
+			if(px == py) {
+				tmp = (d[x] - d[y]) % 3; if(tmp < 0) tmp += 3;
+				if(tmp != t) ans++;
 			}
 			else {
-				if(px == py) {
-					tmp = (d[x] - d[y]) % 3; if(tmp < 0) tmp += 3;
-					if(tmp != 1) ans++;
-				}
-				else {
-					root[px] = py;
-					i = (d[x] - d[y] - 1) % 3;
-					d[px] = i < 0? -i : -i+3;
-				}
+				root[px] = py;
+				i = (d[x] - d[y] - t) % 3;
+				d[px] = i < 0? -i : -i+3;
 			}
 		}
 		printf("%d\n", ans);
