@@ -87,12 +87,9 @@ int main() {
 					if(tmp != 0) ans++;
 				}
 				else {
-					for(i = 0; i < 3; i++) {
-						tmp = (d[x] + i - d[y]) % 3; if(tmp < 0) tmp += 3;
-						if(tmp == 0) break;
-					}
 					root[px] = py;
-					d[px] = i;
+					i = (d[x] - d[y]) % 3;
+					d[px] = i < 0? -i : -i+3;
 				}
 			}
 			else {
@@ -101,12 +98,9 @@ int main() {
 					if(tmp != 1) ans++;
 				}
 				else {
-					for(i = 0; i < 3; i++) {
-						tmp = (d[x] + i - d[y]) % 3; if(tmp < 0) tmp += 3;
-						if(tmp == 1) break;
-					}
 					root[px] = py;
-					d[px] = i;
+					i = (d[x] - d[y] - 1) % 3;
+					d[px] = i < 0? -i : -i+3;
 				}
 			}
 		}
