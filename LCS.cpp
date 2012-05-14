@@ -13,7 +13,6 @@ const int K = 26;
 
 struct state {
 	int length, link, next[K];
-	bool termimal;
 } st[MAXLEN*2-1];
 
 int sz, last;
