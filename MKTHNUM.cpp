@@ -10,48 +10,48 @@ ALGO: segment tree, merge sort
 #include<algorithm>
 using namespace std;
 
-const int NMAX = 101000;
-const int DEPTH = 20;
+const int NMAX = 100001;
+const int DEPTH = 18;
 
-typedef struct { int l,r; } Node;
+typedef struct { int lt,rt; } Node;
 
-Node tree[NMAX*4];
-int data[NMAX], seg[DEPTH][NMAX], LessMid[DEPTH][NMAX];
+Node tree[1 << 18];
+int data[NMAX], seg[DEPTH][NMAX], leftSide[DEPTH][NMAX];
 
-void buildtree(int root,int l,int r,int d) {
-    tree[root].l=l,tree[root].r=r;
-    if(l==r) return;
-    int mid=(l+r)>>1;
-    int lsame=mid-l+1;
-    for(int i=l;i<=r;i++) {
+void buildtree(int root,int lt,int rt,int d) {
+    tree[root].lt=lt,tree[root].rt=rt;
+    if(lt==rt) return;
+    int mid=(lt+rt)>>1;
+    int lsame=mid-lt+1;
+    for(int i=lt;i<=rt;i++) {
         if(seg[d][i]<data[mid]) lsame--;
     }
-    int tl=l,tr=mid+1,same=0;
-    for(int i=l;i<=r;i++) {
-        if(i==l) LessMid[d][i]=0;
-        else LessMid[d][i]=LessMid[d][i-1];
-        if(seg[d][i]<data[mid]) LessMid[d][i]++,seg[d+1][tl++]=seg[d][i];
+    int tl=lt,tr=mid+1,same=0;
+    for(int i=lt;i<=rt;i++) {
+        if(i==lt) leftSide[d][i]=0;
+        else leftSide[d][i]=leftSide[d][i-1];
+        if(seg[d][i]<data[mid]) leftSide[d][i]++,seg[d+1][tl++]=seg[d][i];
         else if(seg[d][i]>data[mid]) seg[d+1][tr++]=seg[d][i];
         else {
-            if(same<lsame) same++,LessMid[d][i]++,seg[d+1][tl++]=seg[d][i];
+            if(same<lsame) same++,leftSide[d][i]++,seg[d+1][tl++]=seg[d][i];
             else seg[d+1][tr++]=seg[d][i];
         }
     }
-    buildtree(root<<1,l,mid,d+1);
-    buildtree((root<<1)+1,mid+1,r,d+1);
+    buildtree(root<<1,lt,mid,d+1);
+    buildtree((root<<1)+1,mid+1,rt,d+1);
 }
 
-int Query(int root,int l,int r,int d,int cnt) {
-    if(l==r) return seg[d][l];
+int Query(int root,int lt,int rt,int d,int cnt) {
+    if(lt==rt) return seg[d][lt];
     int s;
     int ss;
-    if(l==tree[root].l) s=LessMid[d][r],ss=0;
-    else s=LessMid[d][r]-LessMid[d][l-1],ss=LessMid[d][l-1];
-    if(s>=cnt) return Query(root<<1,tree[root].l+ss,tree[root].l+ss+s-1,d+1,cnt);
+    if(lt==tree[root].lt) s=leftSide[d][rt],ss=0;
+    else s=leftSide[d][rt]-leftSide[d][lt-1],ss=leftSide[d][lt-1];
+    if(s>=cnt) return Query(root<<1,tree[root].lt+ss,tree[root].lt+ss+s-1,d+1,cnt);
     else {
-        int mid=(tree[root].l+tree[root].r)>>1;
-        int bb=l-tree[root].l-ss;
-        int b=r-l+1-s;
+        int mid=(tree[root].lt+tree[root].rt)>>1;
+        int bb=lt-tree[root].lt-ss;
+        int b=rt-lt+1-s;
         return Query((root<<1)+1,mid+bb+1,mid+bb+b,d+1,cnt-s);
     }
 }
@@ -66,8 +66,8 @@ int main() {
     sort(data+1,data+1+n);
     buildtree(1,1,n,1);
     while(m--) {
-        int l,r,k;scanf("%d%d%d",&l,&r,&k);
-        int res=Query(1,l,r,1,k);
+        int lt,rt,k;scanf("%d%d%d",&lt,&rt,&k);
+        int res=Query(1,lt,rt,1,k);
         printf("%d\n",res);
     }
     return 0;
