@@ -10,7 +10,7 @@ ALGO: sqrt decomposition
 using namespace std;
 
 const int MAX = 100000;
-const int LEN = 200;
+const int LEN = 700;
 
 int num[MAX], seg[MAX];
 
