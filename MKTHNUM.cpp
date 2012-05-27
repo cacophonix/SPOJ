@@ -39,12 +39,12 @@ void buildtree(int node, int lt, int rt, int d) {
 
 int Query(int node, int lt, int rt, int d, int cnt) {
 	if(lt == rt) return seg[d][lt];
-	int s, ss;
+	int s, ss, mid;
 	if(lt == tree[node].lt) s = lesser[d][rt], ss = 0;
 	else s = lesser[d][rt] - lesser[d][lt - 1], ss = lesser[d][lt - 1];
 	if(s >= cnt) return Query(node << 1, tree[node].lt + ss, tree[node].lt + ss + s - 1, d + 1, cnt);
 	else {
-		int mid = (tree[node].lt + tree[node].rt) >> 1, bb = lt - tree[node].lt - ss, b = rt - lt + 1 - s;
+		mid = (tree[node].lt + tree[node].rt) >> 1, bb = lt - tree[node].lt - ss, b = rt - lt + 1 - s;
 		return Query((node << 1)+1, mid + bb + 1, mid + bb + b, d + 1, cnt - s);
 	}
 }
