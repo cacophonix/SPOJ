@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MKTHNUM
-ALGO: segment tree, merge sort
+ALGO: segment T, merge sort
 */
 
 #define _CRT_SECURE_NO_WARNINGS 1
@@ -15,11 +15,11 @@ const int DEPTH = 18;
 
 typedef struct { int lt,rt; } Node;
 
-Node tree[1 << 18];
+Node T[1 << 18];
 int a[NMAX], seg[DEPTH][NMAX], lesser[DEPTH][NMAX];
 
 void buildtree(int node, int lt, int rt, int d) {
-	tree[node].lt = lt,tree[node].rt = rt;
+	T[node].lt = lt,T[node].rt = rt;
 	if(lt == rt) return;
 	int i, mid = (lt + rt) >> 1, lsame = mid - lt + 1, tl = lt, tr = mid + 1, same = 0;
 	for(i = lt; i <= rt; i++) if(seg[d][i] < a[mid]) lsame--;
@@ -40,11 +40,11 @@ void buildtree(int node, int lt, int rt, int d) {
 int Query(int node, int lt, int rt, int d, int cnt) {
 	if(lt == rt) return seg[d][lt];
 	int s, ss, mid;
-	if(lt == tree[node].lt) s = lesser[d][rt], ss = 0;
+	if(lt == T[node].lt) s = lesser[d][rt], ss = 0;
 	else s = lesser[d][rt] - lesser[d][lt - 1], ss = lesser[d][lt - 1];
-	if(s >= cnt) return Query(node << 1, tree[node].lt + ss, tree[node].lt + ss + s - 1, d + 1, cnt);
+	if(s >= cnt) return Query(node << 1, T[node].lt + ss, T[node].lt + ss + s - 1, d + 1, cnt);
 	else {
-		mid = (tree[node].lt + tree[node].rt) >> 1, bb = lt - tree[node].lt - ss, b = rt - lt + 1 - s;
+		mid = (T[node].lt + T[node].rt) >> 1, bb = lt - T[node].lt - ss, b = rt - lt + 1 - s;
 		return Query((node << 1)+1, mid + bb + 1, mid + bb + b, d + 1, cnt - s);
 	}
 }
