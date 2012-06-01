@@ -32,9 +32,9 @@ vec GaussianElimination(const mat& A, const vec& b) {
 		if(fabs(B[i][i]) < EPS) return vec();
 		for(j = n; j >= i; --j) B[i][j] /= B[i][i];
 		for(j = 0; j < n; j++) if(i != j) for(k = i+1; k <= n; ++k) B[j][k] -= B[j][i] * B[i][k];
-    }
-    for(i = 0; i < n; i++) x[i] = B[i][n];
-    return x;
+	}
+	for(i = 0; i < n; i++) x[i] = B[i][n];
+	return x;
 }
 
 int main() {
@@ -63,5 +63,5 @@ int main() {
 		vec ones(n-1, 1);
 		vec ans = GaussianElimination(a, ones);
 		printf("%.5f\n", s == t ? 0 : s < t ? ans[s] : ans[s-1]);
-    }
+	}
 }
