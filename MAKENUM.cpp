@@ -1,7 +1,7 @@
 /*
 USER: zobayer
 TASK: MAKESUM
-ALGO: observation
+ALGO: greedy
 */
 
 #include <cstdio>
