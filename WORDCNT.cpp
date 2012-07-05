@@ -9,24 +9,20 @@ ALGO: ad-hoc
 #include <string>
 using namespace std;
 
-int main()
-{
+int main() {
 	string line, s;
 	int t, best, len, prlen, wrdcnt;
 	ios::sync_with_stdio(false);
 	cin >> t;
 	getline(cin, s);
-	while(t--)
-	{
+	while(t--) {
 		getline(cin, line);
 		best = prlen = wrdcnt = 0;
 		stringstream ss(line);
-		while(ss >> s)
-		{
+		while(ss >> s) {
 			len = s.size();
 			if(len==prlen) wrdcnt++;
-			else
-			{
+			else {
 				if(wrdcnt > best) best = wrdcnt;
 				wrdcnt = 1;
 				prlen = len;
