@@ -75,8 +75,9 @@ void process(int n)
 	}
 }
 
-int main(int t, int n)
+int main()
 {
+	int n, t;
 	scanf("%d", &t);
 	while(t--)
 	{
