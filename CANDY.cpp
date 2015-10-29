@@ -1,31 +1,32 @@
-/*
-USER: zobayer
-TASK: CANDY
-ALGO: ad-hoc
-*/
+#include <iostream>
 
-#include <ios>
+using namespace std;
 
 int main()
-{
-	int a[10001], n, i, avr, sum, total;
-	while(scanf("%d", &n) == 1 && n > 0)
-	{
-		for(i=sum=0; i < n; i++)
-		{
-			scanf("%d", &a[i]);
-			sum += a[i];
-		}
-		if(sum % n == 0)
-		{
-			avr = sum / n;
-			for(i=total=0; i < n; i++)
-				if(a[i] < avr)
-					total += avr - a[i];
-			printf("%d\n", total);
-		}
-		else printf("-1\n");
-	}
-	return 0;
-}
+{   int a[10001];
+    int n;
+    int i;
+    int s=0;
+    while(1)
+    {
+        i=0;
+        s=0;
+        cin>>n;
+        int t=n;
+        if(n==-1) break;
+        while(t--)
+        {
+            int x;
+            cin>>x;
+            a[i++]=x;
+            s+=x;
 
+        }
+        if(s%n!=0) cout<<-1<<endl;
+        else{
+            int o=0;
+            for(int k=0;k<n;k++) if(a[k] - (s/n)>0) o += a[k] - (s/n);
+            cout<<o<<endl;
+        }
+    }
+}
