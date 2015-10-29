@@ -1,49 +1,36 @@
-/*
-USER: zobayer
-TASK: FCTRL2
-ALGO: math, big integer
-*/
-
-#include <cstdio>
-#include <cstring>
-
-#define MAXDIGIT 101
-#define MAXLENGTH 159
-
-using namespace std;
-
-char factorial[MAXDIGIT][MAXLENGTH];
-
-void multiply(int k)
-{
-	int carry = 0, sum, i = 0, len = strlen(factorial[k-1]);
-	while(i<len)
-	{
-		sum = carry + (factorial[k-1][i] - '0') * k;
-		factorial[k][i++] = (sum % 10) + '0';
-		carry = sum/10;
-	}
-	while(carry>0)
-	{
-		factorial[k][i++] = (carry%10) + '0';
-		carry/=10;
-	}
-}
-
+#include<stdio.h>
 int main()
 {
-	int n, k, len, t;
-	factorial[0][0]='1'; factorial[1][0]='1';
-	for(k=2;k<MAXDIGIT;k++)
-		multiply(k);
-	for(scanf("%d",&t);t;t--)
-	{
-		scanf("%d",&n);
-	 	len = strlen(factorial[n]);
-	 	for(k=len-1;k>=0;k--)
-			printf("%c",factorial[n][k]);
-		printf("\n");
-	}
-	return 0;
-}
+    int t;
+    int a[200]; //array will have the capacity to store 200 digits.
+    int n,i,j,temp,m,x;
 
+    scanf("%d",&t);
+    while(t--)
+    {
+       scanf("%d",&n);
+       a[0]=1;  //initializes array with only 1 digit, the digit 1.
+       m=1;    // initializes digit counter
+
+       temp = 0; //Initializes carry variable to 0.
+       for(i=1;i<=n;i++)
+       {
+            for(j=0;j<m;j++)
+            {
+               x = a[j]*i+temp; //x contains the digit by digit product
+               a[j]=x%10; //Contains the digit to store in position j
+               temp = x/10; //Contains the carry value that will be stored on later indexes
+            }
+             while(temp>0) //while loop that will store the carry value on array.
+             {
+               a[m]=temp%10;
+               temp = temp/10;
+               m++; // increments digit counter
+             }
+      }
+              for(i=m-1;i>=0;i--) //printing answer
+              printf("%d",a[i]);
+              printf("\n");
+    }
+    return 0;
+}
