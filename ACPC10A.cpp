@@ -1,16 +1,30 @@
-/*
-USER: zobayer
-TASK: ACPC10A
-ALGO: ad-hoc
-*/
-
+#include<iostream>
 #include <stdio.h>
+using namespace std;
 
-int main() {
-	int a, b, c;
-	while(scanf("%d%d%d", &a, &b, &c)==3 && (a|b|c)) {
-		if(b - a == c - b) printf("AP %d\n", c + c - b);
-		else printf("GP %d\n", c * c / b);
-	}
-	return 0;
+void progression(int *N){
+    int s,m=0;
+    s = N[1]-N[0];
+    if (N[0]!=0){
+        m = N[1]/N[0];
+    }
+    if(N[2] == N[1]+s){
+        cout << "AP "<< N[2]+s<< "\n";
+    }
+    else if(N[2]==N[1]*m){
+        cout << "GP "<< N[2]*m<< "\n";
+    }
+}
+
+int main () {
+    int N[3];
+    while(true){
+        for(int i = 0; i < 3; i++){
+           scanf ("%d", &N[i]);
+        }
+        if (N[0] == 0 && N[1] == 0 && N[2] == 0){
+            break;
+        }
+        progression(N);
+    }
 }
